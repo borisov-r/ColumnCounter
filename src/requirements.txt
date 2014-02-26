@@ -1,2 +1,4 @@
 xlwt-future
 xlrd1
+pyside
+cx_freeze
