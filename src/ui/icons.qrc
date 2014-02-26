@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>icons/Document.png</file>
+     <file>icons/Save.png</file>
+     <file>icons/Folder.png</file>
+     <file>icons/Delete.png</file>
+     <file>icons/Stats.png</file>
+     <file>icons/Award.png</file>
+     <file>icons/Announcement.png</file>
+ </qresource>
+ </RCC>
