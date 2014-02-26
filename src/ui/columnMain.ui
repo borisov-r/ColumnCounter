@@ -91,8 +91,8 @@
   </widget>
   <action name="NewFile">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Document.png</normaloff>icons/Document.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Document.png</normaloff>:/icons/Document.png</iconset>
    </property>
    <property name="text">
     <string>Нов файл ...</string>
@@ -109,8 +109,8 @@
   </action>
   <action name="OpenFile">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Folder.png</normaloff>icons/Folder.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Folder.png</normaloff>:/icons/Folder.png</iconset>
    </property>
    <property name="text">
     <string>Отвори</string>
@@ -127,8 +127,8 @@
   </action>
   <action name="Quit">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Delete.png</normaloff>icons/Delete.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Delete.png</normaloff>:/icons/Delete.png</iconset>
    </property>
    <property name="text">
     <string>Изход</string>
@@ -145,8 +145,8 @@
   </action>
   <action name="About">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Award.png</normaloff>icons/Award.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Award.png</normaloff>:/icons/Award.png</iconset>
    </property>
    <property name="text">
     <string>Относно</string>
@@ -157,8 +157,8 @@
   </action>
   <action name="License">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Announcement.png</normaloff>icons/Announcement.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Announcement.png</normaloff>:/icons/Announcement.png</iconset>
    </property>
    <property name="text">
     <string>Лиценз</string>
@@ -169,8 +169,8 @@
   </action>
   <action name="Graphics">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Stats.png</normaloff>icons/Stats.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Stats.png</normaloff>:/icons/Stats.png</iconset>
    </property>
    <property name="text">
     <string>Графика</string>
@@ -184,8 +184,8 @@
   </action>
   <action name="Save">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/Save.png</normaloff>icons/Save.png</iconset>
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/Save.png</normaloff>:/icons/Save.png</iconset>
    </property>
    <property name="text">
     <string>Запиши</string>
@@ -201,6 +201,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
